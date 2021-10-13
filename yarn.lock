@@ -1842,6 +1842,13 @@
   dependencies:
     "buffer" "~6.0.3"
 
+"@solana/spl-token-registry@^0.2.275":
+  "integrity" "sha512-wAH26iJ7dQLs+Ma75ueYYeO1FtWvYlb8sM0SXuviy+q1PhrBto8sgXGuBGcku7LpdnDnPdy8FM5BplNOAI3Fcw=="
+  "resolved" "https://registry.npmjs.org/@solana/spl-token-registry/-/spl-token-registry-0.2.275.tgz"
+  "version" "0.2.275"
+  dependencies:
+    "cross-fetch" "3.0.6"
+
 "@solana/spl-token@^0.1.8":
   "integrity" "sha512-LZmYCKcPQDtJgecvWOgT/cnoIQPWjdH+QVyzPcFvyDUiT0DiRjZaam4aqNUyvchLFhzgunv3d9xOoyE34ofdoQ=="
   "resolved" "https://registry.npmjs.org/@solana/spl-token/-/spl-token-0.1.8.tgz"
@@ -3959,9 +3966,9 @@
     "lodash.uniq" "^4.5.0"
 
 "caniuse-lite@^1.0.0", "caniuse-lite@^1.0.30000981", "caniuse-lite@^1.0.30001109", "caniuse-lite@^1.0.30001125", "caniuse-lite@^1.0.30001181":
-  "integrity" "sha512-xJJqzyd+7GCJXkcoBiQ1GuxEiOBCLQ0aVW9HMekifZsAVGdj5eJ4mFB9fEhSHipq9IOk/QXFJUiIr9lZT+EsGw=="
-  "resolved" "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001191.tgz"
-  "version" "1.0.30001191"
+  "integrity" "sha512-YzBnspggWV5hep1m9Z6sZVLOt7vrju8xWooFAgN6BA5qvy98qPAPb7vNUzypFaoh2pb3vlfzbDO8tB57UPGbtw=="
+  "resolved" "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001265.tgz"
+  "version" "1.0.30001265"
 
 "capture-exit@^2.0.0":
   "integrity" "sha512-PiT/hQmTonHhl/HFGN+Lx3JJUznrVYJ3+AQsnthneZbvW7x+f08Tk7yLJTLEOUvBTbduLeeBkxEaYXUOUrRq6g=="
@@ -4503,6 +4510,13 @@
   "integrity" "sha512-1eAtFWdIubi6T4XPy6ei9iUFoKpUkIF971QLN8lIvvvwueI65+Nw5haMNKUwfJxabqlIIDODJKGrQ66gxC0PbQ=="
   "resolved" "https://registry.npmjs.org/cross-fetch/-/cross-fetch-3.1.4.tgz"
   "version" "3.1.4"
+  dependencies:
+    "node-fetch" "2.6.1"
+
+"cross-fetch@3.0.6":
+  "integrity" "sha512-KBPUbqgFjzWlVcURG+Svp9TlhA5uliYtiNx/0r8nv0pdypeQCRJ9IaSIc3q/x3q8t3F75cHuwxVql1HFGHCNJQ=="
+  "resolved" "https://registry.npmjs.org/cross-fetch/-/cross-fetch-3.0.6.tgz"
+  "version" "3.0.6"
   dependencies:
     "node-fetch" "2.6.1"
 
